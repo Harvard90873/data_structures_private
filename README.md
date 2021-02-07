@@ -23,18 +23,13 @@ pip install data-structures3x
 ### Example of a linked list:
 
 ```Python
-from algorithms3x.linkedlist import Item
+from dt_structures3x.linkedlist import Item
 # linked list
 root = Item(10)
 root.appendChild(Item(17), Item(19))
-foo = root
-while foo != None:
-    print(foo.val)
-    foo = foo.pointer
+root.display()
 ```
 Output:
 ```Python
-10
-17
-19
+10 -> 17 -> 19
 ```
