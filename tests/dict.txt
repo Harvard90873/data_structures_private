@@ -1,0 +1,11 @@
+from hashtable import Node, Hashtable
+ht = Hashtable()
+with open("english3.txt", "r") as txt:
+    buffer = txt.readlines()
+    ult_buffer = []
+    for i in buffer:
+        ht.insert(Node(i))
+    with open("res.txt", "w") as res:
+        dude = ht.__str__()
+        res.writelines(dude)
+    
