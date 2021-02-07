@@ -1,5 +1,5 @@
 # Import =====================================================================================
-from .binarytree import Node as inheritance                                                 #||
+from binarytree import Node as inheritance                                                 #||
 try:                                                                                       #||
     from algorithms3x import bubble_sort                                                   #||
 except ImportError:                                                                        #||
@@ -16,6 +16,15 @@ class Item(inheritance):
         self.pointer = pointer
     def getNextNode(self):
         return self.pointer
+    def print_list(self):
+        buffer = "Linked list: \n"
+        node = self
+        while node.pointer != None:
+            buffer += f"{node.val} -> "
+            node = node.pointer
+        buffer += f"{node.val}"
+        print(buffer)
+        return buffer
     def appendChild(self, *args):
         """
         Append child to the item, if there is already one, append to the end of the linked list
