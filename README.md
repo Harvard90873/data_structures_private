@@ -15,7 +15,7 @@ If not already, [install pip](https://pip.pypa.io/en/stable/installing/)
 Install the package with `pip` or `pip3`:
 
 ```bash
-pip install python-algorithms-3x
+pip install data-structures3x
 ```
 
 # Usage
