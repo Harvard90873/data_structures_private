@@ -19,7 +19,7 @@ pip install data-structures3x
 ```
 
 # Usage
-## See more examples at [My Docs](https://https://harvard90873.readthedocs.io/en/latest/Python%20Data%20Structures%203x.html)
+## See more examples at [My Docs](https://harvard90873.readthedocs.io/en/latest/Python%20Data%20Structures%203x.html)
 ### Example of a linked list:
 
 ```Python
