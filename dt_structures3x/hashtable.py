@@ -1,8 +1,8 @@
 # Import 
 # ========================================================================
-from binarytree import Node as inheritance
+from .binarytree import Node as inheritance
 from termcolor import cprint
-from linkedlist import Item
+from .linkedlist import Item
 try:
     from algorithms3x import bubble_sort
 except ImportError:

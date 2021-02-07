@@ -1,5 +1,5 @@
 # Import =====================================================================================
-from binarytree import Node as inheritance                                                 #||
+from .binarytree import Node as inheritance                                                 #||
 try:                                                                                       #||
     from algorithms3x import bubble_sort                                                   #||
 except ImportError:                                                                        #||
