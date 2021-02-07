@@ -23,7 +23,7 @@ pip install python-algorithms-3x
 ### Example of a linked list:
 
 ```Python
-from algorithms3x.hashmap import Item, Hashmap
+from algorithms3x.linkedlist import Item
 # linked list
 root = Item(10)
 root.appendChild(Item(17), Item(19))
