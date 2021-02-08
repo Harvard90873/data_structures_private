@@ -48,7 +48,9 @@ class Hashtable:
         Adding an node and automatically hashes it to the right place.
         """
         for node in nodes:
-            index = self.hash(node.val)
+            value = node.val.strip('\n')
+            node.val = node.val.strip('\n')
+            index = self.hash(value)
             location = self.nodes[index]
             if location == None:
                 self.nodes[index] = node
