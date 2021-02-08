@@ -18,7 +18,7 @@ class Item(inheritance):
         return self.pointer
     def __str__(self):
         
-        return self.val
+        return str(self.val)
     def get_children(self):
         """
         Invalid Method!
