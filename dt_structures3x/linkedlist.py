@@ -16,6 +16,18 @@ class Item(inheritance):
         self.pointer = pointer
     def getNextNode(self):
         return self.pointer
+    def __str__(self):
+        return self.display()
+    def get_children(self):
+        """
+        Invalid Method!
+        """
+        pass
+    def print_tree(self, val="val", left="left", right="right"):
+        """
+        Invalid Method!
+        """
+        pass
     def display(self):
         """
         Display the linked list using arrows
