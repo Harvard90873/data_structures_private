@@ -43,7 +43,7 @@ class Item(inheritance):
         
     def appendChild(self, *args):
         """
-        Append child to the item, if there is already one, append to the beginning of the linked list
+        Append child to the linked list or the item(whatever you like to call it)
         """
         for child in args:
             tmp = self
