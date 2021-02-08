@@ -17,13 +17,8 @@ class Item(inheritance):
     def getNextNode(self):
         return self.pointer
     def __str__(self):
-        buffer = "Linked list: \n"
-        node = self
-        while node.pointer != None:
-            buffer += f"{node.val} -> "
-            node = node.pointer
-        buffer += f"{node.val}"
-        return buffer
+        
+        return self.val
     def get_children(self):
         """
         Invalid Method!
