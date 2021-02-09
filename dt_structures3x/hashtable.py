@@ -138,7 +138,6 @@ class Hashtable:
         if self.nodes[index].val == target.val:
             return index
         location = self.nodes[index]
-        print("Have to do some iteration...")
         while location.pointer != None:
             location = location.pointer
             if location.val == target.val:
@@ -148,10 +147,20 @@ class Hashtable:
     def delete(self, target: Node):
         """
         Deletes an element from the hash table\n
-        If the target node does not exist
+        If the target node does not exist, return False
         """
-        if self.lookup(target) == False:
-            return 
+        """
+        res = self.lookup(target)
+        if res == False:
+            return False
+
+        value = target.val
+        current = self.nodes[res]
+        if current.val == value:
+            tmp.pointer = self.nodes[res].pointe
+        while current.val != value:
+            current = current.pointer
+        """
 
     
 # ========================================================================
