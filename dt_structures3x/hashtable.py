@@ -34,7 +34,7 @@ class Hashtable:
         
     def hash(self, string):
         """
-        Returns the hash value of a node
+        Returns the hash value of a node.
         """
         hashFV = 0
         string = str(string)
