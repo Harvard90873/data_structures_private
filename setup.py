@@ -4,7 +4,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 setup(
     name="data-structures3x",
-    version="1.4.5",
+    version="1.4.6",
     description="Python 3+ version data structures",
     long_description=README,
     long_description_content_type="text/markdown",

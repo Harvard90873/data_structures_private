@@ -4,7 +4,7 @@ from .binarytree import Node as inheritance
 from termcolor import cprint
 from .linkedlist import Item
 try:
-    from algorithms3x import bubble_sort
+    from algorithms3x import merge_sort
 except ImportError:
     raise "Please install the package: pip install python-algorithms-3x"
 # ========================================================================
